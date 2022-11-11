@@ -1,0 +1,106 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background: #010014;
+  color: #3636dd;
+    text-shadow: 0px 0px 5px #3636dd;
+    margin:0px;
+  font-family: 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+}
+hr {
+    border-color: #2d2dae;
+}
+button {
+    font-size: 16px;
+    color: #3636dd;
+    text-shadow: 0px 0px 5px #3636dd;
+    cursor: pointer;
+    background:transparent;
+    border:none;
+    margin-left:35px;
+    padding-bottom:20px;
+  font-family: 'Times New Roman', Times, serif;
+    
+}
+.post {
+    margin-bottom: 20px;
+    font-size: 16px;
+    background-color: rgba(54, 54, 221, 0.05);
+    padding: 10px;
+    border-radius: 4px;
+    width: calc(100vw - 120px);
+    margin-left: 40px
+}
+#loading {
+    margin-left: 45px;
+}
+.taskbar {
+    margin:0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: rgb(50,50,207);
+    background: linear-gradient(180deg, rgba(50,50,207,1) 0%, rgba(50,50,206,1) 9%, rgba(52,52,213,0.6) 49%, rgba(54,54,221,0.03) 100%);
+
+    position:sticky;
+    top:0
+}
+.title {
+    font-size: 32px;
+     margin-left: 45px;
+    font-family: monospace;
+    color: #3636dd;
+    text-shadow: 0px 0px 5px #3636dd;
+    margin-right:30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.strip {
+    color: #3636dd;
+    text-shadow: 0px 0px 5px #3636dd;
+    margin-right:30px;
+    text-decoration: none;
+}
+#loading {
+    padding-bottom: 20px;
+}
+input {
+    top:30px;
+    position: absolute;
+  font-family: 'Times New Roman', Times, serif;
+    background: transparent;
+
+  color: #3636dd;
+    text-shadow: 0px 0px 5px #3636dd;
+    margin:0px;
+
+    border:none;
+    border-radius: 4px;
+    font-size:18px;
+
+    caret-color: rgba(0,0,0,0);
+    width:calc(100vw - 260px);
+
+}
+input::placeholder {
+    color: #3636dd;
+}
+  
+input:-ms-input-placeholder {
+    color: #3636dd;
+}
+  
+input::-ms-input-placeholder {
+    color: #3636dd;
+}
+input:focus {
+  outline-width: 0;
+}
+#scrollElement {
+    position:sticky;
+
+    top:0;
+    width:1px;
+    height:1px;
+    background:transparent;
+}
