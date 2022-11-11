@@ -104,3 +104,6 @@ input:focus {
     height:1px;
     background:transparent;
 }
+.error {
+    margin-left: 45px;
+}
