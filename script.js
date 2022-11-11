@@ -36,6 +36,7 @@ if (search === "") {
 
         console.log(err);
         output.innerHTML = `<div class="error">Error: Post ${search} is not found.</div>`
+        loading.style.display = 'none';
     })
 }
 function load() {
