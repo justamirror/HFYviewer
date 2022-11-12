@@ -1,6 +1,6 @@
 const r = new snoowrap({
     userAgent: "r/HFY Client at https://FloralwhiteStableKeygen.justa6.repl.co",
-    accessToken: "-BiIV3tEsPkxzj5iYFHmGCW6W09HWIA"
+    accessToken: "-xkt9Rb1YdDgGaFiKFIrVYpXTxw36ig"
 });
 let output = document.querySelector("#output");
 function renderPost(post) {
